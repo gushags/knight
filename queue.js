@@ -9,7 +9,7 @@ export class Queue {
   }
   dequeue() {
     if (this.data.length > 0) {
-      this.data.shift();
+      return this.data.shift();
     } else {
       return null;
     }
